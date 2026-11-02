@@ -1,0 +1,11 @@
+Stage 10500 QA
+- Python py_compile: PASS
+- ai-server smoke_test.py: PASS
+- Motion presets catalog (>=12): PASS
+- Driving-motion catalog provider: PASS
+- Android XML parse: PASS
+- Kotlin delimiter structural check: PASS
+- Full Android Gradle compile: NOT VERIFIED in this environment
+- LivePortrait GPU inference: NOT EXECUTED (weights/repo not installed here)
+- MimicMotion GPU inference: NOT EXECUTED (weights/repo not installed here)
+- Adapter contracts updated against official CLI/docs: PASS by static review

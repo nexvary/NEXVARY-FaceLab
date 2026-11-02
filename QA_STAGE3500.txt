@@ -1,0 +1,13 @@
+NEXVARY FaceLab Stage 3500 QA
+=============================
+Version consistency: PASS (3500.0.0)
+Python syntax: PASS
+Film planner smoke test: PASS
+60-second shot-duration sum: PASS
+Character/face/wardrobe/location locks in plan: PASS
+Android Film tab wiring: PASS
+Android -> /v1/film/plan client wiring: PASS
+Local engine probe: PASS
+Paid inference API added: NO
+Video model weights bundled: NO (intentional license/hardware gate)
+Full Android Gradle build: NOT VERIFIED in sandbox; Gradle bootstrap could not resolve services.gradle.org.

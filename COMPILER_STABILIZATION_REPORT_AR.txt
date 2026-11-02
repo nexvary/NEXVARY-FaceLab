@@ -1,0 +1,27 @@
+NEXVARY FaceLab — Stage 36000 STABILIZED
+
+الهدف: إيقاف الترقيع المتتالي وتثبيت مسار Kotlin/Compose قبل إضافة أي ميزة جديدة.
+
+ما تم تغييره:
+1. فصل ComparePreviewCard عن MainActivity.kt إلى ComparePreviewCard.kt مستقل.
+2. إزالة BoxWithConstraints من المقارنة Before/After بالكامل.
+3. إزالة Dp arithmetic و offset overloads من مسار المقارنة.
+4. استخدام onSizeChanged + mutableIntStateOf لقياس العرض بالبكسل أثناء السحب.
+5. تثبيت حالات Compose الرئيسية بأنواع صريحة.
+6. تثبيت favorites / savedLooks / closets كـ Set<String> immutable state.
+7. مراجعة getValue/setValue imports وعدم وجود mutation مباشر للمجموعات المذكورة.
+8. فحص بنية جميع ملفات Kotlin في المشروع، XML، JSON وصور الموارد.
+9. فحص Python backend وتشغيل smoke test وStage 21500 regression test.
+10. إضافة BUILD_ANDROID_STABILIZED.cmd: لا يعلن BUILD PASS إلا إذا خرج app-debug.apk فعليًا.
+
+ما تم التحقق منه في بيئة التطوير الحالية:
+- Kotlin lexical/parser-level structure: PASS (kotlinc no-classpath emitted no syntax/expecting diagnostics).
+- Strict stabilization gate: 36 checks / 0 failures.
+- Python backend compile: PASS.
+- Backend smoke: PASS.
+- Storyboard/production regression Stage 21500: PASS.
+- XML/JSON/resource integrity: PASS.
+- ZIP integrity: PASS.
+
+القيد الوحيد:
+لا يمكن إعلان Android Gradle compile الكامل PASS داخل هذه البيئة لأن Gradle 8.10.2 غير مخزن محليًا والاتصال إلى services.gradle.org يفشل DNS قبل بدء compiler. لذلك لم يتم تزوير نتيجة Build.

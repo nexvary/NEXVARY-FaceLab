@@ -1,0 +1,10 @@
+# Stage 80: all inference is self-hosted; no paid API SDK is required.
+diffusers>=0.35.0,<0.41
+transformers>=4.48,<5
+accelerate>=1.2,<2
+safetensors>=0.5,<1
+opencv-python-headless>=4.10,<5
+# Optional background removal. Code is MIT; audit the exact model asset license/provenance before commercial redistribution.
+rembg[cpu]>=2.0.67,<3
+# Install a PyTorch build appropriate for your CPU/CUDA separately when possible.
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128

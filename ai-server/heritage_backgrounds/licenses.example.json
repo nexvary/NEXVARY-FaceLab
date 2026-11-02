@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "site_id": "eg_giza",
+      "file": "eg_giza.jpg",
+      "source": "https://example.org/source-page",
+      "author": "Author name",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "commercial_use": true,
+      "attribution": "Required attribution text"
+    }
+  ]
+}

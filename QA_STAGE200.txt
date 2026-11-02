@@ -1,0 +1,10 @@
+NEXVARY FaceLab Stage 200 QA
+- Source structure: checked
+- Kotlin brace balance: pending automated check
+- Language set AR/EN/TR/ES/DE/IT: retained
+- Bottom navigation: implemented
+- Gallery: implemented (session memory)
+- Models dashboard: implemented
+- Settings/About: implemented
+- Paid API dependency: none added
+- Full Android Gradle build: environment dependent

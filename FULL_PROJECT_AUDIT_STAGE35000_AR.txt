@@ -1,0 +1,60 @@
+NEXVARY FaceLab — STAGE 35000 AUDITED
+فحص مشدد شامل للمشروع
+
+النطاق الذي تم فحصه فعليًا:
+- جميع ملفات المشروع المصدرية والحزمة.
+- Android/Kotlin/Compose structure.
+- AndroidManifest / XML / resources / RTL.
+- 72 صورة مصغرة للمعالم و72 معرفًا وربطها واحدًا بواحد.
+- Python backend وكل ملفات providers/adapters.
+- JSON manifests.
+- FastAPI import + route inventory.
+- Core API integration requests.
+- رفض الملفات غير الصالحة.
+- Timeline/Storyboard/Film QA الحديثة.
+- Shell scripts syntax.
+- Version consistency.
+- ZIP integrity.
+- فحص TODO/FIXME/NotImplemented.
+- فحص eval/exec/os.system/shell=True.
+- فحص حالات Compose التي سببت أخطاء favorites/savedLooks/closets.
+
+إصلاحات تمت أثناء التدقيق:
+1. تم تثبيت Compose collection state كـ Set<String> صريح مع getValue/setValue.
+2. تم منع mutation المباشر للحالات السابقة واستخدام copy-on-write.
+3. تم تعطيل Android backup لحماية بيانات التطبيق: allowBackup=false.
+4. تمت إضافة حماية مبكرة في الخادم ضد path traversal/control path segments.
+5. تم تنظيف __pycache__ وملفات pyc من حزمة التسليم.
+6. تمت إضافة qa_release_35000.py كبوابة QA خاصة بالإصدار الحالي بدل الاعتماد على اختبارات تاريخية مثبتة على أرقام إصدارات قديمة.
+7. تم تحديث Android/client/server إلى 35000.0.0.
+
+نتائج الفحص:
+- Python compile: PASS
+- Android XML: PASS
+- JSON: PASS
+- Heritage PNG decode 72/72: PASS
+- Heritage ID ↔ asset 72/72: PASS
+- Kotlin lexical delimiter structure: PASS
+- Compose delegate imports: PASS
+- favorites state regression: PASS
+- savedLooks state regression: PASS
+- closets state regression: PASS
+- No direct mutable state Set mutation: PASS
+- SDK configuration 35/35/26: PASS
+- RTL manifest: PASS
+- Backup disabled: PASS
+- Shell syntax: PASS
+- FastAPI /v1 route inventory: 108 routes PASS
+- Core API GET integration: PASS
+- Invalid upload rejection: PASS
+- Path traversal hardening: PASS
+- Modern film/timeline QA suites: PASS
+- TODO/FIXME scan: PASS
+- Dangerous dynamic execution scan: PASS
+
+حدود التحقق التي لن يتم إخفاؤها:
+- Android Gradle/Kotlin compiler لم يبدأ في هذه البيئة لأن services.gradle.org غير قابل للحل DNS. لذلك لا يوجد ادعاء بأن assembleDebug اكتمل هنا.
+- تشغيل Wan/LivePortrait/MimicMotion على GPU لم يتم في هذه البيئة.
+
+ملاحظة عن اختبارات QA التاريخية:
+بعض ملفات qa_stage القديمة تقارن versionCode بإصدارها التاريخي (800/900/1000/4000/9000... إلخ)، ولذلك تفشل عمدًا عند تشغيلها على إصدار 35000 بسبب رقم النسخة، وليس بسبب تعطل الوظيفة الحالية. تم الحفاظ عليها كسجل تاريخي، وتمت إضافة بوابة الإصدار الحالية qa_release_35000.py.

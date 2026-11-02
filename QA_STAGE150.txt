@@ -1,0 +1,14 @@
+NEXVARY FaceLab Stage 150 QA
+============================
+
+PASS  Python syntax: app.py, smoke_test.py, providers/*.py
+PASS  AI server smoke test: FaceLab Stage 150 smoke test
+PASS  Kotlin structural delimiter balance for MainActivity.kt
+PASS  Stage version consistency: Android 150.0.0 / API 150.0.0
+PASS  No paid API dependency introduced
+PASS  Runtime telemetry endpoints added: /v1/runtime, /v1/models
+PASS  AI response metadata captured in Android: request id, process ms, cache, engine version
+PASS  Recent AI activity bounded to 8 in-memory items; UI renders latest 5
+PASS  Existing self-hosted workflow, RTL, Undo/Redo, presets and reference-image flow retained
+BLOCK Android Gradle compile cannot be completed in this sandbox because services.gradle.org DNS resolution is unavailable.
+      The failure occurs while the wrapper tries to download Gradle 8.10.2, before project compilation.

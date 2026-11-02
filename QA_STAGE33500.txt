@@ -1,0 +1,13 @@
+NEXVARY FaceLab — Stage 34000 FIXED QA
+
+PASS: Python compileall for ai-server
+PASS: Stage 34000 FIXED provider functional tests
+PASS: FastAPI TestClient routes for monitor/playhead/frame-step/safe-area/onion/workspace
+PASS: Actual FFmpeg synthetic proxy -> JPEG monitor frame extraction
+PASS: Android XML parsing
+PASS: Kotlin delimiter structural balance
+PASS: Version consistency (33500 / 34500.0.0)
+PASS: Server smoke test (label updated to Stage 34000 FIXED)
+
+NOT VERIFIED: Full Android Gradle APK build. Gradle bootstrap could not resolve services.gradle.org in this environment.
+NOT RUN: LivePortrait / MimicMotion / Wan GPU inference.

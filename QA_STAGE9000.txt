@@ -1,0 +1,27 @@
+NEXVARY FaceLab — Stage 9000 QA
+================================
+
+PASS  Version consistency: 9000.0.0
+PASS  Python syntax (all ai-server Python files)
+PASS  Existing FaceLab smoke test
+PASS  Android XML parse
+PASS  Kotlin structural delimiter balance
+PASS  Stage 9000 Film UI controls wired
+PASS  Actual FFmpeg multi-shot render job
+PASS  Real MP4 output created
+PASS  Film thumbnail generated
+PASS  SRT subtitles generated
+PASS  Storyboard plan created
+PASS  Job history API backend
+PASS  Project archive ZIP generation
+PASS  Export presets Preview / 720p / 1080p
+PASS  Aspect ratios 16:9 / 9:16 / 1:1
+PASS  Cancel / Retry / resumable completed shots
+PASS  Local AI adapter uses subprocess argument array (no shell=True)
+PASS  No paid per-request inference API added
+
+ANDROID FULL BUILD:
+NOT VERIFIED in this sandbox. Gradle bootstrap attempted but DNS could not resolve services.gradle.org, so Gradle 8.10.2 could not be downloaded. This is an environment/network limitation, not recorded as a successful Android build.
+
+AI VIDEO NOTE:
+The included FFmpeg path produces a real multi-shot MP4 preview with camera motion. True body/face animation requires a separately installed local Image-to-Video model whose exact code and model-weight licenses have been reviewed. No model weights are embedded in this package.

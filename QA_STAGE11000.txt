@@ -1,0 +1,26 @@
+NEXVARY FaceLab Stage 11000 QA
+================================
+PASS - Python AST/py_compile for server motion pipeline
+PASS - Stage 11000 smoke test
+PASS - /v1/film/motions returns 12 presets
+PASS - /v1/film/doctor responds
+PASS - motion_preset is injected into storyboard shots
+PASS - walk_forward routes to MimicMotion preference
+PASS - private Driving Motion register/list API
+PASS - real FastAPI preview render job completed
+PASS - real MP4 fetched from video endpoint (non-empty)
+PASS - Android XML parse
+PASS - Kotlin structural delimiter balance
+PASS - FaceApiClient sends motion_preset in film render multipart
+PASS - ZIP packaging integrity checked after creation
+
+NOT VERIFIED - Full Android Gradle compile in this environment.
+Reason: custom Gradle bootstrap tried to reach services.gradle.org; DNS/network is unavailable here.
+This is not recorded as a successful Android build.
+
+NOT RUN - LivePortrait GPU inference (model weights/GPU not installed in this environment).
+NOT RUN - MimicMotion GPU inference (model weights/GPU not installed in this environment).
+
+Official integration basis checked against current upstream docs:
+- LivePortrait official CLI supports source -s, driving -d, driving_option and driving_multiplier.
+- MimicMotion official inference uses inference.py --inference_config and the official model layout.

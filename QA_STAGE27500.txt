@@ -1,0 +1,29 @@
+NEXVARY FaceLab — Stage 27500 QA
+
+Cumulative stages: 23000, 23500, 24000, 24500, 25000, 25500, 26000, 26500, 27000, 27500
+
+Performed:
+- Python py_compile for app.py, film.py, timeline_editor.py, timeline_studio.py, timeline_pro.py: PASS
+- timeline_pro direct functional QA: PASS
+- FastAPI TestClient new endpoint suite (12 endpoint checks): PASS
+- Existing server smoke test updated for 27500: PASS
+- Android XML parse: PASS
+- Kotlin structural delimiter balance: PASS
+- Version consistency Android/API/client: PASS
+- ZIP integrity: performed after packaging
+
+New timeline functions verified:
+- playhead/zoom/In-Out state
+- precise head/tail trim with minimum duration guard
+- markers/chapters
+- exact shot move/reflow
+- transitions + bounded durations
+- per-shot audio gain/mute/fades
+- per-shot subtitle text/offset
+- render-range manifest
+- autosave/recovery + revision state
+- integrated editor session/validation
+
+Not verified:
+- Full Android Gradle/Kotlin compilation. Attempted, but Gradle bootstrap could not resolve services.gradle.org (curl error 6 / DNS).
+- LivePortrait/MimicMotion/Wan GPU inference was not executed in this environment.

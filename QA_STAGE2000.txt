@@ -1,0 +1,23 @@
+NEXVARY FaceLab Stage 2000 QA
+=============================
+Target version: 2000.0.0
+
+Checks intended for this release:
+- Python syntax compilation
+- AI smoke test
+- Version consistency
+- Wardrobe independent-piece composition wiring
+- 3-look stylist recommendation endpoint
+- Dressing-room persistence markers
+- Six-language UI retained
+- XML validation
+- ZIP integrity
+
+Note: Full Android Gradle/APK compilation is only PASS when actually executed with available Gradle dependencies.
+
+Executed in this environment:
+- Python syntax: PASS
+- AI smoke test: PASS (`FaceLab Stage 2000 smoke test: PASS`)
+- Kotlin lexical bracket balance: PASS
+- Android XML parse: PASS
+- Full Gradle build: NOT EXECUTED successfully; wrapper could not resolve `services.gradle.org` while preparing Gradle 8.10.2.

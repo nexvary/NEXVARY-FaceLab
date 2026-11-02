@@ -1,0 +1,9 @@
+Python AST: PASS
+Stage 10500 API wiring: PASS
+Motion presets >= 12: PASS
+Engine Doctor report: PASS
+LivePortrait runner: PASS
+Windows multi-engine bootstrap: PASS
+FaceLab Stage 10500 smoke test: PASS
+Android XML parse: PASS
+Kotlin structural balance: PASS

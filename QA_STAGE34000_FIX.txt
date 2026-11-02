@@ -1,0 +1,12 @@
+NEXVARY FaceLab — Stage 34000 FIXED — QA
+
+PASS: Python backend py_compile
+PASS: Android XML parse (10 files)
+PASS: Kotlin delimiter/structure scan
+PASS: Explicit Compose getValue/setValue imports
+PASS: Wardrobe collection state typing regression check
+PASS: Version consistency 34000 / 34500.0.0
+
+Gradle compile attempt exit code: 6
+Result: NOT VERIFIED because Gradle bootstrap could not resolve services.gradle.org in this environment.
+No APK build success is claimed.

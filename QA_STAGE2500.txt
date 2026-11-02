@@ -1,0 +1,8 @@
+Stage 2500 scope: Heritage Background Studio
+Countries: Egypt, Türkiye, Algeria
+Built-in landmark metadata: 16
+Custom licensed background import: YES
+Self-hosted heritage API: YES
+Paid inference API: NONE
+Unlicensed web photos bundled: NO
+Full Android Gradle compile in sandbox: NOT CLAIMED

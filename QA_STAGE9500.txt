@@ -1,0 +1,6 @@
+FaceLab Stage 9500 smoke test: PASS
+Stage 9500 multi-engine status: PASS
+Engine slots: Wan 2.2, MimicMotion, LivePortrait, EchoMimic V2, MuseTalk, FFmpeg
+Generic adapter subprocess uses no shell argument: PASS
+Version 9500 present: PASS
+Entertainment profile docs: PASS
