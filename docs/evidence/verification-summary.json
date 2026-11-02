@@ -54,7 +54,16 @@
     "failures": 0
   },
   "code_commit": "39cfea86bf799269ab6a66ed1b05d7f3d80686c7",
-  "emulator": "Pending CI; not claimed as passed",
+  "emulator": {
+    "result": "success",
+    "api": 35,
+    "tests": 2,
+    "scope": [
+      "private JPEG capture and decoding",
+      "activity recreation/background/resume readiness"
+    ],
+    "physical_camera": "not tested"
+  },
   "physical_device": "Not available",
   "apks": {
     "app/build/outputs/apk/release/app-release-unsigned.apk": {
@@ -72,9 +81,11 @@
   },
   "ci": {
     "run": "https://github.com/nexvary/NEXVARY-FaceLab/actions/runs/41389080891",
+    "code_commit": "39cfea86bf799269ab6a66ed1b05d7f3d80686c7",
+    "overall": "success",
     "linux_android": "success",
+    "windows_android": "success",
     "python": "success",
-    "windows_android": "pending at capture",
-    "emulator": "pending at capture"
+    "emulator": "success"
   }
 }

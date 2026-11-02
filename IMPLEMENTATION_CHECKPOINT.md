@@ -34,7 +34,7 @@ CI signatures/hashes may differ by runner; use each run's own SHA256SUMS artifac
 ## CI evidence
 
 Run: https://github.com/nexvary/NEXVARY-FaceLab/actions/runs/41389080891
-At checkpoint drafting, Python and Linux Android jobs passed; Windows and emulator outcomes were pending. Read the live run and PR validation notes before making a current-state claim.
+Final observed result: **success**. Python, Linux Android, Windows Android and Android 15 emulator jobs all passed on executable-source commit `39cfea86bf799269ab6a66ed1b05d7f3d80686c7`. Both instrumentation tests passed: private JPEG capture/decoding and recreation/background/resume UI readiness. See `docs/evidence/emulator-instrumentation.log`. Later documentation-only commits use `[skip ci]`; no production/test source changed after this verified code commit. Read the actual latest run before making future current-state claims.
 
 ## Next work, in order
 
