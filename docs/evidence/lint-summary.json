@@ -1,0 +1,12 @@
+{
+  "errors": 0,
+  "warning_groups": {
+    "UnusedAttribute": 1,
+    "DataExtractionRules": 1,
+    "ObsoleteSdkInt": 1,
+    "UnusedResources": 7,
+    "IconLauncherShape": 10,
+    "IconDuplicates": 5
+  },
+  "note": "No lint suppressions or baseline were added to hide errors."
+}

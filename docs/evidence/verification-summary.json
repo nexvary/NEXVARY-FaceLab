@@ -1,0 +1,80 @@
+{
+  "testDebugUnitTest": [
+    {
+      "name": "com.nexvary.facelab.LumaSamplerTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.nexvary.facelab.CaptureFilesTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.nexvary.facelab.ServerSessionTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "testReleaseUnitTest": [
+    {
+      "name": "com.nexvary.facelab.LumaSamplerTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.nexvary.facelab.CaptureFilesTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.nexvary.facelab.ServerSessionTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "lint": {
+    "errors": 0,
+    "warnings": 25
+  },
+  "python": {
+    "tests": 11,
+    "failures": 0
+  },
+  "code_commit": "39cfea86bf799269ab6a66ed1b05d7f3d80686c7",
+  "emulator": "Pending CI; not claimed as passed",
+  "physical_device": "Not available",
+  "apks": {
+    "app/build/outputs/apk/release/app-release-unsigned.apk": {
+      "bytes": 14709158,
+      "sha256": "d87fcacd2c62577ea6caabaf8346570a8c9b8c8a3085389aa4acd92dc0c21aab"
+    },
+    "app/build/outputs/apk/debug/app-debug.apk": {
+      "bytes": 21304512,
+      "sha256": "4e71fca3d225bab95417f646b2d1fb763def90cbb1bd8efe5c6ab25514b1754b"
+    },
+    "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk": {
+      "bytes": 439955,
+      "sha256": "81723b1217f1b1317d0d5a1cfa075abb032750f366f938710ac0f433572e0f7b"
+    }
+  },
+  "ci": {
+    "run": "https://github.com/nexvary/NEXVARY-FaceLab/actions/runs/41389080891",
+    "linux_android": "success",
+    "python": "success",
+    "windows_android": "pending at capture",
+    "emulator": "pending at capture"
+  }
+}
