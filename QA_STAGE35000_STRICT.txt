@@ -1,0 +1,36 @@
+PASS 20
+PASS: Python compile (48 files)
+PASS: Android XML (10 files)
+PASS: JSON parse
+PASS: 72 heritage thumbnails decode
+PASS: 72 unique heritage IDs
+PASS: Heritage IDs ↔ thumbnails exact match
+PASS: Compose delegate imports
+PASS: favorites explicit Set<String> state
+PASS: savedLooks explicit Set<String> state
+PASS: closets explicit Set<String> state
+PASS: No direct state-Set mutation
+PASS: Kotlin lexical delimiter balance
+PASS: 35000 version consistency
+PASS: SDK 35/35/26
+PASS: Android backup disabled
+PASS: RTL enabled
+PASS: Shell syntax
+PASS: Python cache packaging policy checked before ZIP
+PASS: Backend import/version
+PASS: FastAPI route inventory (108)
+FAIL 0
+FaceLab Stage 35000 AUDITED smoke test: PASS
+FaceLab Stage 16500 QA: PASS
+Stage 21500 QA PASS {"shots": 9, "readiness": 100, "manifest": 9}
+Stage 22500 timeline editor QA: PASS
+Stage 27500 timeline pro QA: PASS
+FaceLab Stage 32500 QA: PASS
+FaceLab Stage 33000 provider QA: PASS
+CORE API INTEGRATION: PASS (health/capabilities/runtime/models/film/status/doctor/heritage/wardrobe)
+INVALID IMAGE UPLOAD REJECTION: PASS (HTTP 415)
+PATH TRAVERSAL HARDENING: PASS (encoded ../ and backslash rejected)
+TODO/FIXME/NotImplemented scan: PASS (none in app/ai-server sources)
+Dangerous eval/exec/os.system/shell=True scan: PASS (none)
+Android Gradle compile: NOT COMPLETED — environment DNS cannot resolve services.gradle.org before compiler starts.
+GPU AI inference: NOT EXECUTED in this environment.

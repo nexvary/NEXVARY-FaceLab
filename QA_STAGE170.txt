@@ -1,0 +1,11 @@
+NEXVARY FaceLab Stage 170 QA
+============================
+[PASS] Kotlin braces balanced (lexical structural check)
+[PASS] Six UI languages present
+[PASS] Arabic RTL / Latin-script languages LTR logic present
+[PASS] Language selection persistence present
+[PASS] Android locale config includes ar,en,tr,es,de,it
+[PASS] No Stage 150 customer-facing footer remains
+[PASS] AI server source unchanged by UI localization work
+[PASS] No paid API dependency added
+[INFO] Full Android Gradle compile depends on external Gradle/Android dependency availability in the build environment.

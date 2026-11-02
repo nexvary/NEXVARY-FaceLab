@@ -1,0 +1,12 @@
+NEXVARY FaceLab — Stage 36000 STABILIZED
+
+فك الضغط في مجلد جديد قصير مثل:
+C:\NEXVARY\FaceLab36000
+
+افتح هذا المجلد نفسه في Android Studio ولا تستخدم المراحل القديمة.
+
+أمر البناء:
+gradlew.bat clean :app:assembleDebug
+
+APK عند نجاح البناء:
+app\build\outputs\apk\debug\app-debug.apk

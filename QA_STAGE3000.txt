@@ -1,0 +1,24 @@
+NEXVARY FaceLab Stage 3000 QA
+==============================
+Version consistency ............... PASS (3000.0.0)
+Python syntax ..................... PASS
+AI server smoke test .............. PASS
+Kotlin structural balance ......... PASS
+HeritageScreen implementation ..... PASS
+Heritage catalog .................. PASS (72 sites)
+Countries ......................... PASS (9)
+Persistent landmark favorites ..... PASS
+Landmark search/filter UI ......... PASS
+Illustrated local thumbnails ...... PASS (72 original previews)
+Heritage pack API ................. PASS
+Heritage license manifest gate .... PASS
+Android XML parsing ............... PASS
+Paid per-image inference API ...... NONE ADDED
+
+Important release note:
+Stage 3000 intentionally does NOT bundle unverified photographic landmark images from the web.
+The 72 bundled thumbnails are original illustrated previews. Full photographic backgrounds can be
+installed in FACELAB_HERITAGE_DIR only after recording source/license/commercial-use data in
+licenses.json and passing ai-server/validate_heritage_pack.py.
+
+Full Android Gradle APK compilation was not claimed in this environment.

@@ -1,0 +1,10 @@
+NEXVARY FaceLab Stage 80 QA
+============================
+PASS: Python syntax compile for app.py, runner.py, diffusion_face.py, smoke_test.py
+PASS: Stage 80 smoke test
+PASS: effect registry includes age, hair, beard add/remove, smile, makeup, hair color, eye color, teeth, skin, background tools
+PASS: Android client supports optional reference-image multipart upload
+PASS: Android source enum/render mapping reviewed for exhaustive fallback
+PASS: API cache includes reference image bytes
+PASS: self-hosted architecture requires no paid per-request API
+BLOCKED IN THIS BUILD ENVIRONMENT: Android Gradle compile could not start because services.gradle.org DNS is unavailable, so Gradle 8.10.2 could not be downloaded. This is an environment/network limitation, not a reported Kotlin compiler result.

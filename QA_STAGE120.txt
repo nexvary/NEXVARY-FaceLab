@@ -1,0 +1,11 @@
+NEXVARY FaceLab Stage 120 QA
+============================
+Python syntax ............... PASS
+AI server smoke test ........ PASS
+Kotlin structural balance ... PASS
+Grouped/scrollable UI ....... PASS (source review)
+Undo/Redo bounded stack ..... PASS (12 snapshots)
+Paid API dependency added ... NO
+Gradle full compile ......... BLOCKED in build container: services.gradle.org DNS unavailable
+
+Important: the Gradle failure is an environment/network download failure; it is not recorded as a successful Android compilation.

@@ -1,0 +1,21 @@
+NEXVARY FaceLab Stage 250 QA
+============================
+Version: 250.0.0
+
+PASS  Python syntax compilation
+PASS  AI server smoke test: FaceLab Stage 250 smoke test: PASS
+PASS  Kotlin delimiter structural balance
+PASS  Persistent gallery load/save/clear paths present
+PASS  Persistent gallery bounded to 30 results
+PASS  Interactive Before/After drag control present
+PASS  Six-language UI preserved (AR/EN/TR/ES/DE/IT)
+PASS  Arabic RTL behavior preserved
+PASS  /v1/models integration preserved and surfaced in Model Manager
+PASS  No paid per-image API dependency introduced
+PASS  Python __pycache__ removed from release source
+
+NOT VERIFIED IN THIS ENVIRONMENT
+Android Gradle compile/build: Gradle wrapper download cannot proceed because
+services.gradle.org cannot be resolved from this environment.
+The project previously built and ran on the user's Android device at Stage 150;
+Stage 250 must still be compiled on the user's Android Studio environment before release.

@@ -1,0 +1,9 @@
+{"version":1,"items":[
+ {"id":"idle_natural","label":"Natural idle","file":"face/idle.mp4","type":"face","engine":"liveportrait"},
+ {"id":"smile","label":"Smile","file":"face/smile.mp4","type":"face","engine":"liveportrait"},
+ {"id":"nod","label":"Nod","file":"face/nod.mp4","type":"face","engine":"liveportrait"},
+ {"id":"look_camera","label":"Look camera","file":"face/look_camera.mp4","type":"face","engine":"liveportrait"},
+ {"id":"wave","label":"Wave","file":"body/wave.mp4","type":"body","engine":"mimicmotion"},
+ {"id":"walk_forward","label":"Walk forward","file":"body/walk_forward.mp4","type":"body","engine":"mimicmotion"},
+ {"id":"sit_down","label":"Sit down","file":"body/sit_down.mp4","type":"body","engine":"mimicmotion"}
+]}

@@ -1,0 +1,11 @@
+NEXVARY FaceLab Stage 11500 QA
+
+PASS: Python py_compile for app.py and driving_motions.py
+PASS: FastAPI driving-motion upload endpoint
+PASS: FastAPI driving-motion catalog endpoint
+PASS: FastAPI motion preview endpoint returns video/mp4
+PASS: Android Kotlin delimiter structural checks
+PASS: VersionCode/VersionName updated to 11500 / 11500.0.0
+PASS: Server version updated to 11500.0.0
+NOT VERIFIED: LivePortrait GPU template generation (weights/GPU unavailable here)
+NOT VERIFIED: Full Android Gradle build; Gradle bootstrap could not resolve services.gradle.org in this environment

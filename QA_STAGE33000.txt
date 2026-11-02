@@ -1,0 +1,8 @@
+Stage 33000 QA checklist
+- Python compilation
+- Provider functional QA: scrub, J/K/L, tags, curve interpolation, proxy cache
+- FastAPI route presence
+- Android XML parse
+- Kotlin delimiter balance
+- ZIP integrity
+- Gradle build attempt reported separately

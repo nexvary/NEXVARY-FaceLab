@@ -1,0 +1,35 @@
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libimage_processing_util_jni.so, libsurface_util_jni.so.
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libimage_processing_util_jni.so, libsurface_util_jni.so.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:273:41 'val Icons.Filled.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsWalk.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:273:41 'val Icons.Filled.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsWalk.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:280:25 'val Icons.Filled.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsWalk.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:941:124 'val Icons.Filled.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Undo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:942:124 'val Icons.Filled.Redo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Redo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1582:106 'val Icons.Filled.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Undo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1583:106 'val Icons.Filled.Redo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Redo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1610:122 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1612:133 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1689:448 'val Icons.Filled.CompareArrows: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.CompareArrows.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1749:252 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1914:151 'val Icons.Filled.DirectionsRun: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsRun.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/NavigationComponents.kt:71:61 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/NavigationComponents.kt:71:93 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/SecondaryScreens.kt:112:203 'val Icons.Filled.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.OpenInNew.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:280:25 'val Icons.Filled.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsWalk.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:941:124 'val Icons.Filled.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Undo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:942:124 'val Icons.Filled.Redo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Redo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1582:106 'val Icons.Filled.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Undo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1583:106 'val Icons.Filled.Redo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Redo.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1610:122 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1612:133 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1689:448 'val Icons.Filled.CompareArrows: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.CompareArrows.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1749:252 'val Icons.Filled.ShowChart: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ShowChart.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/MainActivity.kt:1914:151 'val Icons.Filled.DirectionsRun: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.DirectionsRun.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/NavigationComponents.kt:71:61 'val Icons.Filled.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowForward.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/NavigationComponents.kt:71:93 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file://WORKSPACE/repo/app/src/main/java/com/nexvary/facelab/SecondaryScreens.kt:112:203 'val Icons.Filled.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.OpenInNew.
+Wrote HTML report to file://WORKSPACE/repo/app/build/reports/lint-results-debug.html
+w: Detected multiple Kotlin daemon sessions at 
+
+BUILD SUCCESSFUL in 4m 16s
+135 actionable tasks: 134 executed, 1 up-to-date

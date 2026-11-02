@@ -1,0 +1,1256 @@
+[
+  {
+    "coordinate": "androidx.activity:activity:1.10.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.activity:activity-compose:1.10.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.activity:activity-ktx:1.10.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.annotation:annotation:1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.annotation:annotation:1.8.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.annotation:annotation:1.8.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.annotation:annotation-experimental:1.4.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.annotation:annotation-jvm:1.8.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.appcompat:appcompat:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.appcompat:appcompat-resources:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.arch.core:core-common:2.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.arch.core:core-common:2.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.arch.core:core-runtime:2.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.autofill:autofill:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.camera:camera-camera2:1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.camera:camera-core:1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      },
+      {
+        "name": "BSD License",
+        "url": "https://chromium.googlesource.com/libyuv/libyuv/+/refs/heads/main/README.chromium"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.camera:camera-lifecycle:1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.camera:camera-video:1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.camera:camera-view:1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.collection:collection:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.collection:collection:1.4.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.collection:collection:1.4.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.collection:collection-jvm:1.4.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.collection:collection-ktx:1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.collection:collection-ktx:1.4.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose:compose-bom:2025.02.00",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.animation:animation:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.animation:animation-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.animation:animation-core:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.animation:animation-core-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.foundation:foundation:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.foundation:foundation-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.foundation:foundation-layout:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.foundation:foundation-layout-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material:material-icons-core:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material:material-icons-core-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material:material-icons-extended:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material:material-icons-extended-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material:material-ripple:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material:material-ripple-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material3:material3:1.3.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.material3:material3-android:1.3.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.runtime:runtime:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.runtime:runtime-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.runtime:runtime-saveable:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.runtime:runtime-saveable-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-geometry:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-geometry-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-graphics:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-graphics-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-text:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-text-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-tooling-preview:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-tooling-preview-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-unit:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-unit-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-util:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.compose.ui:ui-util-android:1.7.8",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.concurrent:concurrent-futures:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.concurrent:concurrent-futures-ktx:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.core:core:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.core:core:1.13.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.core:core:1.3.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.core:core-ktx:1.13.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.core:core-ktx:1.13.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.cursoradapter:cursoradapter:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.customview:customview:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.customview:customview-poolingcontainer:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.drawerlayout:drawerlayout:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.emoji2:emoji2:1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.emoji2:emoji2:1.3.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.exifinterface:exifinterface:1.3.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.fragment:fragment:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.graphics:graphics-path:1.0.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.interpolator:interpolator:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-common:2.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-common:2.6.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-common:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-common-java8:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-common-jvm:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-livedata:2.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-livedata:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-livedata-core:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-process:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime:2.6.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime-android:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime-compose:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-viewmodel:2.6.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-viewmodel:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-viewmodel-android:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.loader:loader:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.profileinstaller:profileinstaller:1.3.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.profileinstaller:profileinstaller:1.4.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.savedstate:savedstate:1.2.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.savedstate:savedstate-ktx:1.2.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.startup:startup-runtime:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.startup:startup-runtime:1.1.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.tracing:tracing:1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.tracing:tracing-ktx:1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.vectordrawable:vectordrawable:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "androidx.viewpager:viewpager:1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "com.google.auto.value:auto-value-annotations:1.6.3",
+    "licenses": [],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "com.google.guava:listenablefuture:1.0",
+    "licenses": [],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains:annotations:13.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains:annotations:23.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-common:2.0.21",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.7.3",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "evidence": "cached Maven POM"
+  }
+]

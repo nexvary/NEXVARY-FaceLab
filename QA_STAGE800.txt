@@ -1,0 +1,13 @@
+NEXVARY FaceLab — Stage 800 QA
+================================
+Python syntax compilation ........ PASS
+Self-hosted AI smoke test ......... PASS
+Stage/version consistency ......... PASS
+New tool wiring ................... PASS
+Storage/system endpoints .......... PASS
+API-token client transport ........ PASS
+Known paid inference endpoints .... NONE ADDED
+Android full Gradle compile ........ NOT EXECUTED HERE
+Reason: build environment cannot resolve services.gradle.org to fetch Gradle 8.10.2.
+
+Important: the Android Stage 250 baseline was previously built and launched successfully on the user's real Android phone. Stage 800 changes were structurally checked, but a fresh Android compile must be performed in Android Studio on the user's machine before release.

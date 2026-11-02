@@ -1,0 +1,27 @@
+NEXVARY FaceLab Stage 4000 QA
+================================
+Version consistency: PASS (4000.0.0)
+Python compile: PASS
+AI server smoke test: PASS
+Film storyboard plan: PASS
+Film job queue: PASS
+Film job status persistence: PASS
+FFmpeg motion-preview render: PASS
+Generated MP4 file verification: PASS
+Film video download endpoint: PASS
+Safe local AI adapter (JSON argv, no shell): PASS
+Android Film API wiring: PASS
+Android auto-poll job status: PASS
+Android MP4 save flow: PASS
+Kotlin delimiter balance: PASS
+Android XML parse: PASS
+Paid per-request inference API added: NO
+
+Full Android Gradle build in this sandbox: NOT VERIFIED.
+Reason: the project bootstrap attempted to reach services.gradle.org and DNS resolution is unavailable in this environment.
+This is recorded as an environment limitation, not a build success.
+
+Important behavior note:
+- Stage 4000 FFmpeg preview creates a REAL MP4 with camera motion from the final still image.
+- It does NOT claim AI body/face animation.
+- Actual character/body motion requires a configured, license-audited local image-to-video adapter.

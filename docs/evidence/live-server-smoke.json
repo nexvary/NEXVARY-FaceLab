@@ -1,0 +1,8 @@
+{
+  "transport": "real Uvicorn process over loopback HTTP, production auth mode",
+  "health": 200,
+  "unauthenticated_capabilities": 401,
+  "authenticated_capabilities": 200,
+  "enhance": "96x96 JPEG decoded successfully",
+  "temporary_response_files_remaining": 0
+}

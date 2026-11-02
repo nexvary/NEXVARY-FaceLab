@@ -1,0 +1,16 @@
+NEXVARY FaceLab Stage 22500 QA
+
+- Python compile: PASS
+- Timeline editor unit QA: PASS
+- Duration trim: PASS
+- Shot nudge left/right: PASS
+- Undo/Redo history: PASS
+- Multi-track timeline rebuild: PASS
+- Server smoke test: PASS
+- Android XML parse: PASS
+- Kotlin structural delimiter check: PASS
+- ZIP integrity: PASS (performed after packaging)
+
+Not claimed:
+- Full Android Gradle APK build: NOT VERIFIED in this environment.
+- LivePortrait/MimicMotion/Wan GPU inference: NOT EXECUTED in this environment.

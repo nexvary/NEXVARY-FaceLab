@@ -1,0 +1,16 @@
+Stage 32500 QA
+- Python full compile: PASS
+- FastAPI integration QA: PASS
+- Advanced Timeline endpoint: PASS
+- Adaptive ruler: PASS
+- Waveform samples: PASS
+- Marker/shot snap: PASS
+- Multi-select and batch edits: PASS
+- Camera keyframes: PASS
+- Motion keyframes: PASS
+- Track state: PASS
+- Ripple trim: PASS
+- Proxy preview: PASS when FFmpeg/source available
+- Android XML parse: PASS
+- Kotlin structural balance: PASS
+- Full Android Gradle build: NOT VERIFIED — bootstrap could not resolve services.gradle.org (DNS)

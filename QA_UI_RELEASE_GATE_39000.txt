@@ -1,0 +1,99 @@
+NEXVARY FaceLab Stage 39500 — UI RELEASE GATE
+PASS versionCode 39500 
+PASS versionName 39500.0.0 
+PASS backend version 39500.0.0 
+PASS all XML parse — 27 files
+PASS all JSON parse — 3 files
+PASS all raster resources decode — 11 files
+PASS icon exists: nav_edit_electric 
+PASS icon referenced: nav_edit_electric 
+PASS icon vector paths: nav_edit_electric — 3 path(s)
+PASS icon exists: nav_wardrobe_electric 
+PASS icon referenced: nav_wardrobe_electric 
+PASS icon vector paths: nav_wardrobe_electric — 3 path(s)
+PASS icon exists: nav_landmarks_electric 
+PASS icon referenced: nav_landmarks_electric 
+PASS icon vector paths: nav_landmarks_electric — 3 path(s)
+PASS icon exists: nav_films_electric 
+PASS icon referenced: nav_films_electric 
+PASS icon vector paths: nav_films_electric — 4 path(s)
+PASS icon exists: nav_gallery_electric 
+PASS icon referenced: nav_gallery_electric 
+PASS icon vector paths: nav_gallery_electric — 3 path(s)
+PASS icon exists: nav_models_electric 
+PASS icon referenced: nav_models_electric 
+PASS icon vector paths: nav_models_electric — 3 path(s)
+PASS icon exists: nav_settings_electric 
+PASS icon referenced: nav_settings_electric 
+PASS icon vector paths: nav_settings_electric — 3 path(s)
+PASS icon exists: nav_about_electric 
+PASS icon referenced: nav_about_electric 
+PASS icon vector paths: nav_about_electric — 3 path(s)
+PASS icon exists: nav_more_electric 
+PASS icon referenced: nav_more_electric 
+PASS icon vector paths: nav_more_electric — 2 path(s)
+PASS launcher icon reference 
+PASS round launcher icon reference 
+PASS electric app icon exists 
+PASS electric app icon square — 1024x1024
+PASS electric app icon resolution — 1024x1024
+PASS language enum Arabic 
+PASS language flag Arabic 
+PASS language enum English 
+PASS language flag English 
+PASS language enum Turkish 
+PASS language flag Turkish 
+PASS language enum Spanish 
+PASS language flag Spanish 
+PASS language enum German 
+PASS language flag German 
+PASS language enum Italian 
+PASS language flag Italian 
+PASS language enum French 
+PASS language flag French 
+PASS language enum Urdu 
+PASS language flag Urdu 
+PASS language enum Persian 
+PASS language flag Persian 
+PASS RTL provider present 
+PASS Arabic/Urdu/Persian RTL declared 
+PASS compileSdk 35 
+PASS targetSdk 35 
+PASS safeDrawing inset 
+PASS navigation bar padding 
+PASS edge-to-edge 
+PASS BackHandler present 
+PASS secondary back returns Editor 
+PASS root back exits activity 
+PASS nav geometry 360dp — cell=64.0dp
+PASS nav geometry 412dp — cell=74.4dp
+PASS nav geometry 600dp — cell=112.0dp
+PASS nav min height >= 48 
+PASS nav label clipping guard 
+PASS tablet nav max width 
+PASS language dialog scroll guard 
+PASS top title overflow guard 
+PASS screen header overflow guard 
+PASS tool categories scroll 
+PASS effects strip scroll 
+PASS action row scroll 
+PASS wardrobe chip rows scroll — count=24
+PASS Kotlin drawable/mipmap refs resolve 
+PASS Kotlin delimiters ComparePreviewCard.kt () — depth=0
+PASS Kotlin delimiters ComparePreviewCard.kt {} — depth=0
+PASS Kotlin delimiters ComparePreviewCard.kt [] — depth=0
+PASS Kotlin delimiters NavigationComponents.kt () — depth=0
+PASS Kotlin delimiters NavigationComponents.kt {} — depth=0
+PASS Kotlin delimiters NavigationComponents.kt [] — depth=0
+PASS Kotlin delimiters MainActivity.kt () — depth=0
+PASS Kotlin delimiters MainActivity.kt {} — depth=0
+PASS Kotlin delimiters MainActivity.kt [] — depth=0
+PASS Kotlin delimiters SecondaryScreens.kt () — depth=0
+PASS Kotlin delimiters SecondaryScreens.kt {} — depth=0
+PASS Kotlin delimiters SecondaryScreens.kt [] — depth=0
+PASS Kotlin delimiters FaceApiClient.kt () — depth=0
+PASS Kotlin delimiters FaceApiClient.kt {} — depth=0
+PASS Kotlin delimiters FaceApiClient.kt [] — depth=0
+PASS no release-blocking unfinished markers 
+NOTE nav geometry — 360/412/600dp evaluated with 5 cells, 8dp side padding and 6dp gaps
+RESULT: 96 PASS / 0 FAIL
