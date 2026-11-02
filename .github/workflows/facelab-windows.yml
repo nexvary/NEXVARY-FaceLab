@@ -19,6 +19,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r ai-server/requirements.txt -r ai-server/requirements-test.txt
+      - run: python tools/scan_source.py
+      - run: pip check
+      - run: pip install pip-audit==2.10.1
+      - run: pip-audit -r ai-server/requirements.txt --format json --output dependency-audit.json
       - run: python -m compileall -q ai-server
       - run: python -m pytest ai-server/tests -q --junitxml=python-tests.xml
       - run: python ai-server/smoke_test.py
@@ -26,7 +30,9 @@ jobs:
         if: always()
         with:
           name: python-test-results
-          path: python-tests.xml
+          path: |
+            python-tests.xml
+            dependency-audit.json
           if-no-files-found: error
   android:
     strategy:

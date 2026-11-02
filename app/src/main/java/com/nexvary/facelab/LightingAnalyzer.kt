@@ -5,24 +5,12 @@ import androidx.camera.core.ImageProxy
 /** Samples the visible Y plane using row/pixel strides, without copying or uploading frames. */
 internal object LightingAnalyzer {
     fun meanLuma(frame: ImageProxy, maxSamples: Int = 4096): Int {
-        val plane = frame.planes[0]
-        val buffer = plane.buffer
-        val width = frame.width
-        val height = frame.height
-        if (width <= 0 || height <= 0) return 0
-        val stride = maxOf(1, kotlin.math.sqrt((width.toLong() * height / maxOf(1, maxSamples)).toDouble()).toInt())
-        var sum = 0L
-        var count = 0
-        for (y in 0 until height step stride) {
-            for (x in 0 until width step stride) {
-                val index = y.toLong() * plane.rowStride + x.toLong() * plane.pixelStride
-                if (index >= 0 && index < buffer.limit()) {
-                    sum += buffer.get(index.toInt()).toInt() and 0xff
-                    count++
-                }
-            }
-        }
-        return if (count == 0) 0 else (sum / count).toInt()
+        val plane = frame.planes.firstOrNull() ?: return 0
+        val crop = frame.cropRect
+        return LumaSampler.measure(
+            plane.buffer, frame.width, frame.height, plane.rowStride, plane.pixelStride,
+            crop.left, crop.top, crop.right, crop.bottom, maxSamples
+        )?.mean ?: 0
     }
 
     fun guidance(luma: Int, arabic: Boolean): String = when {

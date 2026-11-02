@@ -1,4 +1,5 @@
 import asyncio
+from contextlib import asynccontextmanager
 import hashlib
 import hmac
 import io
@@ -63,7 +64,15 @@ AI_GATE = asyncio.Semaphore(MAX_CONCURRENT)
 STARTED_AT = time.time()
 RUNTIME_STATS = {"requests": 0, "cache_hits": 0, "cache_misses": 0, "errors": 0, "total_process_ms": 0}
 
-app = FastAPI(title="NEXVARY FaceLab Self-Hosted API", version=VERSION)
+@asynccontextmanager
+async def lifespan(application):
+    if os.getenv("FACELAB_ENV", "development") == "production" and not API_TOKEN:
+        raise RuntimeError("FACELAB_API_TOKEN is required in production")
+    _cleanup_cache()
+    yield
+
+
+app = FastAPI(title="NEXVARY FaceLab Self-Hosted API", version=VERSION, lifespan=lifespan)
 
 
 @app.middleware("http")
@@ -74,6 +83,9 @@ async def reject_unsafe_path_segments(request, call_next):
         decoded = unquote(raw.decode("utf-8", "strict"))
     except (UnicodeDecodeError, ValueError):
         return JSONResponse({"detail": "Invalid request path"}, status_code=400)
+    # Authenticate before multipart parsing can spool an untrusted request body.
+    if decoded.startswith("/v1/") and API_TOKEN and not hmac.compare_digest(request.headers.get("x-facelab-token", ""), API_TOKEN):
+        return JSONResponse({"detail": "Invalid FaceLab token"}, status_code=401)
     if "\x00" in decoded or "\\" in decoded:
         return JSONResponse({"detail": "Unsafe request path"}, status_code=400)
     segments = decoded.split("/")
@@ -138,11 +150,6 @@ async def _read_video_upload(upload: UploadFile, label: str) -> tuple[bytes, str
     if len(data) > 120 * 1024 * 1024:
         raise HTTPException(413, f"{label} is too large")
     return data, suffix
-
-
-@app.on_event("startup")
-def startup_housekeeping():
-    _cleanup_cache()
 
 
 @app.get("/health")

@@ -69,3 +69,18 @@ def test_unknown_effect_rejected():
         files={'image': ('test.png', image_bytes(), 'image/png')},
         data={'effect': 'nonexistent'})
     assert response.status_code == 400
+
+
+def test_auth_rejected_before_invalid_multipart_is_parsed():
+    response = client.post('/v1/edit', content=b'malformed multipart',
+        headers={'content-type': 'multipart/form-data', 'X-FaceLab-Token': 'wrong'})
+    assert response.status_code == 401
+
+
+def test_production_requires_auth_token(monkeypatch):
+    import pytest
+    monkeypatch.setenv('FACELAB_ENV', 'production')
+    monkeypatch.setattr(service, 'API_TOKEN', '')
+    with pytest.raises(RuntimeError, match='required in production'):
+        with TestClient(service.app):
+            pass
