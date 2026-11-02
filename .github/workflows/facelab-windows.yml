@@ -8,7 +8,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: facelab-${{ github.ref }}
+  group: facelab-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: true
 jobs:
   python:
@@ -49,10 +49,10 @@ jobs:
         with:
           gradle-version: '8.10.2'
       - name: Install pinned SDK
-        shell: bash
+        shell: pwsh
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
       - name: Build, tests and lint
-        shell: bash
+        shell: pwsh
         run: gradle --no-daemon --stacktrace :app:assembleDebug :app:testDebugUnitTest :app:lintDebug :app:assembleRelease
       - name: APK checksums
         shell: pwsh
