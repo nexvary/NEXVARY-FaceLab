@@ -84,3 +84,30 @@ def test_production_requires_auth_token(monkeypatch):
     with pytest.raises(RuntimeError, match='required in production'):
         with TestClient(service.app):
             pass
+
+
+def test_cache_off_deletes_response_after_send(monkeypatch, tmp_path):
+    monkeypatch.setattr(service, 'CACHE', tmp_path)
+    monkeypatch.setattr(service, 'CACHE_ENABLED', False)
+    response = client.post('/v1/edit', headers=AUTH,
+        files={'image': ('test.png', image_bytes(), 'image/png')},
+        data={'effect': 'enhance'})
+    assert response.status_code == 200
+    assert response.headers['X-FaceLab-Cache'] == 'OFF'
+    assert list(tmp_path.iterdir()) == []
+    with Image.open(io.BytesIO(response.content)) as image:
+        assert image.size == (96, 96)
+
+
+def test_opt_in_cache_hit_returns_same_bytes(monkeypatch, tmp_path):
+    monkeypatch.setattr(service, 'CACHE', tmp_path)
+    monkeypatch.setattr(service, 'CACHE_ENABLED', True)
+    def send():
+        return client.post('/v1/edit', headers=AUTH,
+            files={'image': ('test.png', image_bytes(), 'image/png')},
+            data={'effect': 'enhance'})
+    first, second = send(), send()
+    assert first.status_code == second.status_code == 200
+    assert first.headers['X-FaceLab-Cache'] == 'MISS'
+    assert second.headers['X-FaceLab-Cache'] == 'HIT'
+    assert first.content == second.content

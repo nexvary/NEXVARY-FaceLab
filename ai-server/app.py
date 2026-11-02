@@ -14,6 +14,7 @@ from typing import Optional
 
 from fastapi import Depends, FastAPI, File, Form, Header, HTTPException, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
+from starlette.background import BackgroundTask
 from PIL import Image, UnidentifiedImageError
 
 from providers.runner import EFFECTS, provider_status, run_effect
@@ -48,12 +49,12 @@ from providers.film import (
 VERSION = "40000.0.0"
 MAX_BYTES = int(os.getenv("FACELAB_MAX_UPLOAD_MB", "25")) * 1024 * 1024
 MAX_PIXELS = int(os.getenv("FACELAB_MAX_PIXELS", "40000000"))
-CACHE_ENABLED = os.getenv("FACELAB_CACHE", "1") == "1"
+CACHE_ENABLED = os.getenv("FACELAB_CACHE", "0") == "1"
 CACHE_TTL_HOURS = max(1, int(os.getenv("FACELAB_CACHE_TTL_HOURS", "24")))
 MAX_CONCURRENT = max(1, int(os.getenv("FACELAB_MAX_CONCURRENT", "1")))
 API_TOKEN = os.getenv("FACELAB_API_TOKEN", "").strip()
-DATA_ROOT = Path(os.getenv("FACELAB_DATA_ROOT", tempfile.gettempdir())).expanduser()
-DATA_ROOT.mkdir(parents=True, exist_ok=True)
+DATA_ROOT = Path(os.getenv("FACELAB_DATA_ROOT", str(Path.home() / ".local" / "share" / "nexvary-facelab"))).expanduser()
+DATA_ROOT.mkdir(parents=True, exist_ok=True, mode=0o700)
 CACHE = DATA_ROOT / "facelab_cache_v33000"
 CACHE.mkdir(parents=True, exist_ok=True)
 HERITAGE_DIR = Path(os.getenv("FACELAB_HERITAGE_DIR", str(DATA_ROOT / "heritage_backgrounds"))).expanduser()
@@ -1194,7 +1195,7 @@ async def edit(
                 "X-Process-MS": str(ms),
                 "X-FaceLab-Version": VERSION,
             },
-            background=None if CACHE_ENABLED else None,
+            background=None if CACHE_ENABLED else BackgroundTask(target.unlink, missing_ok=True),
         )
     except HTTPException:
         raise

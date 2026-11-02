@@ -28,4 +28,9 @@ class ServerSessionTest {
         ServerSession.baseUrl = ""
         assertThrows(IllegalArgumentException::class.java) { ServerSession.validate("GET") }
     }
+    @Test fun cleartextPolicyMatchesBuildType() {
+        ServerSession.baseUrl = "http://10.0.2.2:8000"
+        if (BuildConfig.DEBUG) ServerSession.validate("GET")
+        else assertThrows(IllegalArgumentException::class.java) { ServerSession.validate("GET") }
+    }
 }

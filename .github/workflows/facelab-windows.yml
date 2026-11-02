@@ -59,7 +59,7 @@ jobs:
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
       - name: Build, tests and lint
         shell: pwsh
-        run: gradle --no-daemon --stacktrace :app:assembleDebug :app:testDebugUnitTest :app:lintDebug :app:assembleRelease
+        run: gradle --no-daemon --stacktrace :app:assembleDebug :app:testDebugUnitTest :app:lintDebug :app:assembleRelease :app:testReleaseUnitTest :app:assembleDebugAndroidTest
       - name: APK checksums
         shell: pwsh
         run: |
@@ -81,4 +81,43 @@ jobs:
           path: |
             app/build/reports/**
             app/build/test-results/**
+          if-no-files-found: warn
+
+  emulator:
+    needs: android
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: facelab-apks-ubuntu-latest-${{ github.run_number }}
+          path: tested-apks
+      - name: Enable KVM
+        run: sudo chmod 666 /dev/kvm
+      - uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          ram-size: 2048M
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back emulated -camera-front emulated
+          script: |
+            adb install -r tested-apks/apk/debug/app-debug.apk
+            adb install -r tested-apks/apk/androidTest/debug/app-debug-androidTest.apk
+            adb shell am instrument -w -r com.nexvary.facelab.test/androidx.test.runner.AndroidJUnitRunner | tee instrumentation.txt
+            grep -F 'OK (2 tests)' instrumentation.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: emulator-instrumentation
+          path: instrumentation.txt
           if-no-files-found: warn
